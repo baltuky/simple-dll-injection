@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 
     if (argc != 3) {
         printf("Cannot find require parameters\n");
-        printf("Usage: c_memory_protection_winapi.exe <process name> <path to DLL>\n");
+        printf("Usage: dll-injector.exe <process name> <path to DLL>\n");
         exit(0);
     }
 
